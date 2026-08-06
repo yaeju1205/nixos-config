@@ -116,6 +116,22 @@
         "type": "github"
       }
     },
+    "hypr-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786027444,
+        "narHash": "sha256-b+D8Yz0151Sukx546YGilWax23MIgjMiAg5E1qtHMGM=",
+        "owner": "yaeju1205",
+        "repo": "hypr-config",
+        "rev": "79c22fdead574acd215b02b80df9ae918bcd76ee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yaeju1205",
+        "repo": "hypr-config",
+        "type": "github"
+      }
+    },
     "hyprcursor": {
       "inputs": {
         "hyprlang": [
@@ -490,6 +506,22 @@
         "type": "github"
       }
     },
+    "nvim-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786003241,
+        "narHash": "sha256-BvcD4/gAMQsr5gKH2Bk/E7HhR5KK0q0jxSc3180dn8c=",
+        "owner": "yaeju1205",
+        "repo": "nvim-config",
+        "rev": "79654667d51f2ec43ccd273755d924df79f7fe19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yaeju1205",
+        "repo": "nvim-config",
+        "type": "github"
+      }
+    },
     "pre-commit-hooks": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -537,9 +569,11 @@
       "inputs": {
         "caelestia-shell": "caelestia-shell",
         "home-manager": "home-manager",
+        "hypr-config": "hypr-config",
         "hyprland": "hyprland",
         "nix-claude-code": "nix-claude-code",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nvim-config": "nvim-config"
       }
     },
     "systems": {

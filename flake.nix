@@ -23,6 +23,16 @@
       url = "github:ryoppippi/nix-claude-code";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nvim-config = {
+      url = "github:yaeju1205/nvim-config";
+      flake = false;
+    };
+
+    hypr-config = {
+      url = "github:yaeju1205/hypr-config";
+      flake = false;
+    };
   };
 
   outputs = inputs@{ self, nixpkgs, home-manager, hyprland, caelestia-shell, ... }:

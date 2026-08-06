@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }:
+{ pkgs, inputs, lib, ... }:
 
 {
   imports = 
@@ -30,13 +30,13 @@
     size = 24;
   };
 
-  xdg.configFile =
-    builtins.mapAttrs
-      (name: _: {
-        source = ./dotfiles + "/${name}";
-      })
-      (lib.filterAttrs
-        (_: type: type == "directory")
-        (builtins.readDir ./dotfiles));
+  xdg.configFile = {
+    nvim.source = inputs.nvim-config;
+    hypr.source = inputs.hypr-config;
+
+    kitty.source = ./dotfiles/kitty;
+    vim.source = ./dotfiles/vim;
+    wireplumber.source = ./dotfiles/wireplumber;
+  };
 }
 

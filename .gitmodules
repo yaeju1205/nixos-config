@@ -1,7 +1,0 @@
-[submodule "home/yaeju/dotfiles/nvim"]
-	path = home/yaeju/dotfiles/nvim
-	url = https://github.com/yaeju1205/nvim-config
-
-[submodule "home/yaeju/dotfiles/hypr"]
-	path = home/yaeju/dotfiles/hypr
-	url = https://github.com/yaeju1205/hypr-config
