@@ -1,0 +1,34 @@
+" Enable filetype plugins
+" Usage with after/ftplugin
+filetype plugin indent on
+
+" Set left side number column
+" And show a relative numbers
+set number
+set relativenumber
+
+" Set tab style to space
+set expandtab
+
+" Set tab size to 4 spaces
+set tabstop=4
+
+" Set shift characters width
+set shiftwidth=4
+set softtabstop=4
+
+" Disable generate .swap file
+set noswapfile
+
+" Disable generate .netrwhist file
+let g:netrw_dirhistmax = 0
+
+" Use system clipboard
+set clipboard=unnamedplus
+
+" Mapping shift keymaps
+vmap < <gv
+vmap > >gv
+
+" Enable syntax
+syntax on
