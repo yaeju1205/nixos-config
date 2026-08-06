@@ -6,6 +6,7 @@
       ./modules/packages.nix
 
       ./modules/cli/direnv.nix
+      ./modules/cli/claude-code.nix
       ./modules/cli/packages.nix
 
       ./modules/desktop/file-manager.nix
@@ -15,6 +16,8 @@
 
       ./modules/theme/font.nix
       ./modules/theme/gtk-theme.nix
+
+      ./modules/system/clipboard.nix
     ];
 
   home.username = "yaeju";

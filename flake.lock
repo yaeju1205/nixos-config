@@ -454,6 +454,26 @@
         "type": "github"
       }
     },
+    "nix-claude-code": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1785971993,
+        "narHash": "sha256-LlnQ3eKTaR9hbPb875JE6sH45DCAcipZRWqpS6C45Zk=",
+        "owner": "ryoppippi",
+        "repo": "nix-claude-code",
+        "rev": "812585781fdc1bff22a4baa1a04c3988d5e60857",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ryoppippi",
+        "repo": "nix-claude-code",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1785692966,
@@ -518,6 +538,7 @@
         "caelestia-shell": "caelestia-shell",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
+        "nix-claude-code": "nix-claude-code",
         "nixpkgs": "nixpkgs"
       }
     },
