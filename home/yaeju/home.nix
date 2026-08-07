@@ -31,9 +31,6 @@
   };
 
   xdg.configFile = {
-    nvim.source = inputs.nvim-config;
-    hypr.source = inputs.hypr-config;
-
     kitty.source = ./dotfiles/kitty;
     vim.source = ./dotfiles/vim;
     wireplumber.source = ./dotfiles/wireplumber;
